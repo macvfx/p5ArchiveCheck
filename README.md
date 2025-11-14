@@ -25,6 +25,6 @@ to begin an automated verification process.
 - macOS
 - Archiware P5 installed locally
 - 'nsdchat' available at /usr/local/aw/bin/nsdchat
-## Troubleshooting
-- If the app reports missing P5 tools, reinstall Archiware P5.
-- Ensure the folder is readable and not on a restricted volume.
+## Known Issues
+- If the file names contain commas then the resulting CSV file will be messy. 
+- If the app stays at 0% checking then quit the app and try again.
