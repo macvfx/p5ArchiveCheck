@@ -26,6 +26,6 @@ to begin an automated verification process.
 - Archiware P5 installed locally
 - 'nsdchat' available at /usr/local/aw/bin/nsdchat
 ## Known Issues
-- If the file names contain commas then the resulting CSV file will be messy. 
-- If the app stays at 0% checking then quit the app and try again.
+- FIXED in v.1.6 -- If the file names contain commas then the resulting CSV file will be messy. 
+- FIXED in v.1.6 -- If the app stays at 0% checking then quit the app and try again.
 ![P5 Archive Checker Help Not Archived](https://github.com/user-attachments/assets/063556fb-7e5a-4124-ac6c-20c497f7f7a4)
