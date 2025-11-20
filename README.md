@@ -1,7 +1,18 @@
-# p5ArchiveCheck
-Check P5 if a folder is archived with a simple script or app
+# P5 Check (script)
 
-# P5 Archive Checker – User Guide
+Check local P5 server is files are archived. 
+Checks if P5 has a "handle" for a file at a path
+
+Files not archived will be listed in a text file.
+Files archived by P5 will be have a P5 handle and be checked for relevant metadata and listed in a csv (spreadsheet) file.
+
+# P5 Archive Manager (app)
+Check P5 if a folder is archived on a remote P5 server. 
+Saves credentials in the macOS keychain
+
+# P5 Archive Checker (app)
+Check P5 if a folder is archived on a local P5 server.
+
 ## Overview
 P5 Archive Checker is a macOS application that verifies whether files in a selected folder
 have been archived using Archiware P5. Users simply drag and drop a folder onto the app
@@ -23,7 +34,7 @@ to begin an automated verification process.
 - A backup tar.gz of all technical intermediate data.
 ## Requirements
 - macOS
-- Archiware P5 installed locally
+- Archiware P5 server that will be checked is local
 - 'nsdchat' available at /usr/local/aw/bin/nsdchat
 ## Known Issues
 - FIXED in v.1.6 -- If the file names contain commas then the resulting CSV file will be messy. 
