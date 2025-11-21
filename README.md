@@ -4,11 +4,15 @@ Check local P5 server is files are archived.
 Checks if P5 has a "handle" for a file at a path
 
 Files not archived will be listed in a text file.
-Files archived by P5 will be have a P5 handle and be checked for relevant metadata and listed in a csv (spreadsheet) file.
+Files archived by P5 will be checked for relevant metadata and listed in a csv (spreadsheet) file.
+
+P5 Check (Dialog) uses the swiftDialog project for notifications of script checking progress
+P5 Check (Perl) uses a perl code block to better handle filenames with commas better
 
 # P5 Archive Manager (app)
 Check P5 if a folder is archived on a remote P5 server. 
 Saves credentials in the macOS keychain
+![P5ArchiveManager-UI](https://github.com/user-attachments/assets/55d39389-f5ae-4026-8579-b1b1cfab8fab)
 
 # P5 Archive Checker (app)
 Check P5 if a folder is archived on a local P5 server.
