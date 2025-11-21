@@ -13,7 +13,7 @@ P5 Check (Perl) uses a perl code block to better handle filenames with commas be
 Check P5 if a folder is archived on a remote P5 server. 
 
 ## Overview
-P5 Archive Checker is a macOS application that verifies whether files in a selected folder
+P5 Archive Manager is a macOS application that verifies whether files in a selected folder
 have been archived by Archiware P5 in a remote P5 server in the Default Archive index.
 ## How to Use
 1. Open the P5 Archive Manager application.
