@@ -17,7 +17,7 @@ P5 Archive Manager is a macOS application that verifies whether files in a selec
 have been archived by Archiware P5 in a remote P5 server in the Default Archive index.
 ## How to Use
 1. Open the P5 Archive Manager application.
-2. Add a remote P5 server with "Managed Server"
+2. Add a remote P5 server with "Managed Servers"
 3. Select a server to use.
 4. Drag any folder onto the main window.
 5. Click on "Run Verification Check" to begin verification.
