@@ -7,7 +7,7 @@ Check local P5 server if selected files in a folder at a path are archived.
 - Files not archived will be listed in a text file.
 - Files archived by P5 will be checked for relevant metadata and listed in a csv (spreadsheet) file.
 - P5 Check (Dialog) uses the swiftDialog project for notifications of script checking progress.
-- P5 Check (Perl) uses a perl code block to better handle filenames with commas better
+- P5 Check (Perl) uses a perl code block to better handle filenames with commas.
 
 # P5 Archive Manager (app)
 Check P5 if a folder is archived on a remote P5 server. 
