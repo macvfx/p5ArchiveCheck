@@ -1,7 +1,7 @@
 # P5 Check (script)
 
-Check local P5 server is files are archived. 
-Checks if P5 has a "handle" for a file at a path
+Check local P5 server if selected files in a folder at a path are archived. 
+The scripts creates a list of files and checks if P5 has a "handle" for a file at a path
 
 Files not archived will be listed in a text file.
 Files archived by P5 will be checked for relevant metadata and listed in a csv (spreadsheet) file.
