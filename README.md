@@ -23,7 +23,7 @@ have been archived by Archiware P5 in a remote P5 server in the Default Archive 
 5. Click on "Run Verification Check" to begin verification.
 6. Note: You can drop files to check then select a server, which allows you to check various servers. 
 7. Watch the live progress updates.
-8. When complete, the csv of archived files and their metadata opens automatically, or the list of files not archivedopen instead.
+8. When complete, the csv of archived files and their metadata opens automatically, or the list of files not archived opens instead.
 ## Output Files
 - A list of files NOT archived (if any).
 - A CSV listing all archived files with metadata.
