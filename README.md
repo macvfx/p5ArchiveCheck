@@ -11,7 +11,30 @@ P5 Check (Perl) uses a perl code block to better handle filenames with commas be
 
 # P5 Archive Manager (app)
 Check P5 if a folder is archived on a remote P5 server. 
-Saves credentials in the macOS keychain
+
+## Overview
+P5 Archive Checker is a macOS application that verifies whether files in a selected folder
+have been archived by Archiware P5 in a remote P5 server in the Default Archive index.
+## How to Use
+1. Open the P5 Archive Manager application.
+2. Add a remote P5 server with "Managed Server"
+3. Select a server to use.
+4. Drag any folder onto the main window.
+5. Click on "Run Verification Check" to begin verification.
+6. Note: You can drop files to check then select a server, which allows you to check various servers. 
+7. Watch the live progress updates.
+8. When complete, the csv of archived files and their metadata opens automatically, or the list of files not archivedopen instead.
+## Output Files
+- A list of files NOT archived (if any).
+- A CSV listing all archived files with metadata.
+- A full log of the process.
+- A backup tar.gz of all temp intermediate data fetched from P5.
+## Requirements
+- macOS
+- Archiware P5 server that will be checked is local
+- Files archived in Default Archive index. 
+- 'nsdchat' available at /usr/local/aw/bin/nsdchat
+- 
 ![P5ArchiveManager-UI](https://github.com/user-attachments/assets/55d39389-f5ae-4026-8579-b1b1cfab8fab)
 
 # P5 Archive Checker (app)
@@ -26,11 +49,9 @@ to begin an automated verification process.
 2. Drag any folder onto the main window.
 3. The verification will begin automatically.
 4. Watch the live progress updates.
-5. When complete, open the generated:
-- Summary report
-- Archive CSV report
-- Full log file
-- Backup archive (optional)
+5. When complete, opens automatically the generated:
+- Archive CSV report with metadata
+- Or the files not archived
 ## Output Files
 - A list of files NOT archived.
 - A CSV listing all archived files with metadata.
@@ -39,6 +60,7 @@ to begin an automated verification process.
 ## Requirements
 - macOS
 - Archiware P5 server that will be checked is local
+- Files archived in Default Archive index. 
 - 'nsdchat' available at /usr/local/aw/bin/nsdchat
 ## Known Issues
 - FIXED in v.1.6 -- If the file names contain commas then the resulting CSV file will be messy. 
