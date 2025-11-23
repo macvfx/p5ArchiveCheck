@@ -14,7 +14,7 @@ Check P5 if a folder is archived on a remote P5 server.
 
 ## Overview
 P5 Archive Manager is a macOS application that verifies whether files in a selected folder
-have been archived by Archiware P5 in a remote P5 server in the Default Archive index.
+have been archived by Archiware P5 in a remote P5 server in the configured Archive index or the Default Archive index.
 ## How to Use
 1. Open the P5 Archive Manager application.
 2. Add a remote P5 server with "Managed Servers"
@@ -36,8 +36,8 @@ have been archived by Archiware P5 in a remote P5 server in the Default Archive 
 - A backup tar.gz of all temp intermediate data fetched from P5.
 ## Requirements
 - macOS 14.6 minimum
-- Archiware P5 server that will be checked is local
-- Files archived in Default Archive index. 
+- Archiware P5 server that will be checked is remote or local as configured by your network
+- Files archived in your custon set archive index or Default Archive index 
 - 'nsdchat' available at /usr/local/aw/bin/nsdchat
 
 ## Changelog And Known Issues
