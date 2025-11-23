@@ -18,12 +18,17 @@ have been archived by Archiware P5 in a remote P5 server in the Default Archive 
 ## How to Use
 1. Open the P5 Archive Manager application.
 2. Add a remote P5 server with "Managed Servers"
-3. Select a server to use.
-4. Drag any folder onto the main window.
-5. Click on "Run Verification Check" to begin verification.
-6. Note: You can drop files to check then select a server, which allows you to check various servers. 
-7. Watch the live progress updates.
-8. When complete, the csv of archived files and their metadata, or the list of files not archived, are listed in the app so you can open and inspect as needed
+   a. Configure a server name
+   b. Add the IP
+   c. Set the Port (default is 9001)
+   d. Add a user name
+   e. Select a P5 Archive Index (default is Default-Archive)
+4. Select a server to use.
+5. Drag any folder onto the main window.
+6. Click on "Run Verification Check" to begin verification.
+7. Note: You can drop files to check then select a server, which allows you to check various servers. 
+8. Watch the live progress updates.
+9. When complete, the csv of archived files and their metadata, or the list of files not archived, are listed in the app so you can open and inspect as needed
 ## Output Files
 - A list of files NOT archived (if any).
 - A CSV listing all archived files with metadata.
@@ -36,10 +41,12 @@ have been archived by Archiware P5 in a remote P5 server in the Default Archive 
 - 'nsdchat' available at /usr/local/aw/bin/nsdchat
 
 ## Changelog And Known Issues
+- FIXED in 2.7 -- Show log file in Output files section from the start of checking
+- CHANGED in 2.6 -- Configure a P5 Archive Index or use the default Default-Archive option
 - FIXED in 2.4 -- Adding a new server would not show up until you left that section. Thanks to David Fox!
 - CHANGED in 2.4 -- Text file of un-archived items or the csv of archived files no longer auto-open. Also thanks David.
 - CHANGED in 2.4 -- minimum macOS is now 14.6 (this was required by a swift change to fix the server add bug)
-- KNOWN ISSUES -- Only work with files in the Default Archive index.
+- KNOWN ISSUES -- FIXED in 2.6 (Issue only for 2.5 and below) -- Only checks files in the Default Archive index.
 
 ![P5ArchiveManager-UI](https://github.com/user-attachments/assets/55d39389-f5ae-4026-8579-b1b1cfab8fab)
 
