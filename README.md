@@ -41,6 +41,7 @@ have been archived by Archiware P5 in a remote P5 server in the configured Archi
 - 'nsdchat' available at /usr/local/aw/bin/nsdchat
 
 ## Changelog And Known Issues
+- CHANGED in 2.8 -- Added P5 volume ID and location fields for each volume (i.e. tape) in output csv
 - FIXED in 2.7 -- Show log file in Output files section from the start of checking
 - CHANGED in 2.6 -- Configure a P5 Archive Index or use the default Default-Archive option
 - FIXED in 2.4 -- Adding a new server would not show up until you left that section. Thanks to David Fox!
