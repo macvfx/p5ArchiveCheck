@@ -1,6 +1,6 @@
 # P5 Check (script)
 
-Check local Archiware P5 server if selected files in a folder at a path are archived. (More Archiware scripts in [Archiware](https://github.com/macvfx/Archiware/) repo.
+Check local Archiware P5 server if selected files in a folder at a path are archived. More Archiware scripts in [Archiware](https://github.com/macvfx/Archiware/) repo.
 
 ## Overview 
 - The scripts creates a list of files and checks if P5 has a "handle" for a file at a path
