@@ -42,7 +42,7 @@ have been archived by Archiware P5 in a remote P5 server in the configured Archi
 - 'nsdchat' available at /usr/local/aw/bin/nsdchat
 
 ## Changelog
-- FIXED in 2.8 build 2 -- Sometimes the app would open a previouls output file, new output folder fixes this
+- FIXED in 2.8 build 2 -- Sometimes the app would open a previous output file, new output folder fixes this
 - CHANGED in 2.8 build 2 -- Output folder created by date and folder checked
 - CHANGED in 2.8 -- Added P5 volume ID and location fields for each volume (i.e. tape) in output csv
 - FIXED in 2.7 -- Show log file in Output files section from the start of checking
