@@ -41,7 +41,7 @@ have been archived by Archiware P5 in a remote P5 server in the configured Archi
 - Files archived in your custon set archive index or Default Archive index 
 - 'nsdchat' available at /usr/local/aw/bin/nsdchat
 
-## Changelog And Known Issues
+## Changelog
 - FIXED in 2.8 build 2 -- Sometimes the app would open a previouls output file, new output folder fixes this
 - CHANGED in 2.8 build 2 -- Output folder created by date and folder checked
 - CHANGED in 2.8 -- Added P5 volume ID and location fields for each volume (i.e. tape) in output csv
@@ -50,7 +50,10 @@ have been archived by Archiware P5 in a remote P5 server in the configured Archi
 - FIXED in 2.4 -- Adding a new server would not show up until you left that section. Thanks to David Fox!
 - CHANGED in 2.4 -- Text file of un-archived items or the csv of archived files no longer auto-open. Also thanks David.
 - CHANGED in 2.4 -- minimum macOS is now 14.6 (this was required by a swift change to fix the server add bug)
-- KNOWN ISSUES -- FIXED in 2.6 (Issue only for 2.5 and below) -- Only checks files in the Default Archive index.
+
+## Known Issues
+- KNOWN ISSUE -- UI window size needs to be manually re-sized occassionally depending on output files in the list 
+- KNOWN ISSUE -- *FIXED* in 2.6 (Issue only for 2.5 and below) -- Only checks files in the Default Archive index.
 
 
 # P5 Archive Checker (app)
