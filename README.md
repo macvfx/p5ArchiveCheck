@@ -19,11 +19,11 @@ have been archived by Archiware P5 in a remote P5 server in the configured Archi
 ## How to Use
 1. Open the P5 Archive Manager application.
 2. Add a remote P5 server with "Managed Servers"
-   a. Configure a server name
-   b. Add the IP
-   c. Set the Port (default is 9001)
-   d. Add a user name
-   e. Select a P5 Archive Index (default is Default-Archive)
+   - Configure a server name
+   - Add the IP
+   - Set the Port (default is 9001)
+   - Add a user name
+   - Select a P5 Archive Index (default is Default-Archive)
 4. Select a server to use.
 5. Drag any folder onto the main window.
 6. Click on "Run Verification Check" to begin verification.
