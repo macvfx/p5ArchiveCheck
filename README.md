@@ -11,6 +11,7 @@ Check local Archiware P5 server if selected files in a folder at a path are arch
 
 # P5 Archive Manager (app)
 Check P5 if a folder is archived on a remote P5 server. 
+![P5ArchiveManager-UI](https://github.com/user-attachments/assets/55d39389-f5ae-4026-8579-b1b1cfab8fab)
 
 ## Overview
 P5 Archive Manager is a macOS application that verifies whether files in a selected folder
@@ -51,10 +52,10 @@ have been archived by Archiware P5 in a remote P5 server in the configured Archi
 - CHANGED in 2.4 -- minimum macOS is now 14.6 (this was required by a swift change to fix the server add bug)
 - KNOWN ISSUES -- FIXED in 2.6 (Issue only for 2.5 and below) -- Only checks files in the Default Archive index.
 
-![P5ArchiveManager-UI](https://github.com/user-attachments/assets/55d39389-f5ae-4026-8579-b1b1cfab8fab)
 
 # P5 Archive Checker (app)
 Check P5 if a folder is archived on a local P5 server.
+![P5 Archive Checker Help Not Archived](https://github.com/user-attachments/assets/063556fb-7e5a-4124-ac6c-20c497f7f7a4)
 
 ## Overview
 P5 Archive Checker is a macOS application that verifies whether files in a selected folder
@@ -81,4 +82,3 @@ to begin an automated verification process.
 ## Known Issues
 - FIXED in v.1.6 -- If the file names contain commas then the resulting CSV file will be messy. 
 - FIXED in v.1.6 -- If the app stays at 0% checking then quit the app and try again.
-![P5 Archive Checker Help Not Archived](https://github.com/user-attachments/assets/063556fb-7e5a-4124-ac6c-20c497f7f7a4)
