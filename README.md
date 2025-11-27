@@ -3,19 +3,19 @@
 Check local Archiware P5 server if selected files in a folder at a path are archived. More Archiware scripts in [Archiware](https://github.com/macvfx/Archiware/) repo.
 
 ## Overview 
-- The scripts creates a list of files and checks if P5 has a "handle" for a file at a path
+- The script creates a list of files and checks if P5 has a "handle" for a file at a path
 - Files not archived will be listed in a text file.
 - Files archived by P5 will be checked for relevant metadata and listed in a csv (spreadsheet) file.
 - P5 Check (Dialog) uses the swiftDialog project for notifications of script checking progress.
 - P5 Check (Perl) uses a perl code block to better handle filenames with commas.
 
 # P5 Archive Manager (app)
-Check P5 if a folder is archived on a remote P5 server. 
+Check P5 if a folder is archived on a local remote P5 server. 
 ![P5ArchiveManager-UI](https://github.com/user-attachments/assets/55d39389-f5ae-4026-8579-b1b1cfab8fab)
 
 ## Overview
 P5 Archive Manager is a macOS application that verifies whether files in a selected folder
-have been archived by Archiware P5 in a remote P5 server in the configured Archive index or the Default Archive index.
+have been archived by Archiware P5 in a local or remote P5 server in a custom Archive index or the Default-Archive index.
 ## How to Use
 1. Open the P5 Archive Manager application.
 2. Add a remote P5 server with "Managed Servers"
@@ -38,7 +38,7 @@ have been archived by Archiware P5 in a remote P5 server in the configured Archi
 ## Requirements
 - macOS 14.6 minimum
 - Archiware P5 server that will be checked is remote or local as configured by your network
-- Files archived in your custon set archive index or Default Archive index 
+- Files archived in your custon set archive index or Default-Archive index 
 - 'nsdchat' available at /usr/local/aw/bin/nsdchat
 
 ## Changelog
