@@ -13,6 +13,9 @@ Check local Archiware P5 server if selected files in a folder at a path are arch
 Check P5 if a folder is archived on a local remote P5 server. 
 ![P5ArchiveManager-UI](https://github.com/user-attachments/assets/55d39389-f5ae-4026-8579-b1b1cfab8fab)
 
+
+![macOS](https://img.shields.io/badge/macOS-14.0+-blue) ![Swift](https://img.shields.io/badge/Swift-5.9-orange) ![License](https://img.shields.io/badge/License-MIT-green)
+
 ## Overview
 P5 Archive Manager is a macOS application that verifies whether files in a selected folder
 have been archived by Archiware P5 in a local or remote P5 server in a custom Archive index or the Default-Archive index.
