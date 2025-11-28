@@ -85,3 +85,11 @@ to begin an automated verification process.
 ## Known Issues
 - FIXED in v.1.6 -- If the file names contain commas then the resulting CSV file will be messy. 
 - FIXED in v.1.6 -- If the app stays at 0% checking then quit the app and try again.
+
+## License
+
+MIT License - See LICENSE file for details.
+
+## Acknowledgments
+
+- Built for use with [Archiware P5](https://www.archiware.com/)
